@@ -224,6 +224,32 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Party 5 (New) -->
+                <div class="border rounded-lg p-4 hover:bg-blue-50 cursor-pointer transition party-card" data-party="ilankai-tamil-arusukkam" data-animation="animate-from-left">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Election_Symbol_Ilankai_Tamil_Arusu_Kachchi_Sri_Lanka.png" alt="Ilankai Tamil Arasu Kachchi" class="h-20 w-20 object-contain">
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Ilankai Tamil Arasu Kachchi</h3>
+                            <p class="text-gray-700">இலங்கை தமிழரசுக் கட்சி</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Party 6 (New) -->
+                <div class="border rounded-lg p-4 hover:bg-blue-50 cursor-pointer transition party-card" data-party="united-sri-lanka" data-animation="animate-from-right">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <img src="https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/489694489_122102821580831775_8326696052775439992_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGe1jiYQ05sLcLbZyJs--EjD3FPID7R0E4PcU8gPtHQTv3WDx50bNT5TJELXPU5TUlnYzALNB3Veboej9EhJqV1&_nc_ohc=HfYQVtzJu2MQ7kNvwEbl0t8&_nc_oc=Adkt_ZGdZKXhBB2-iH6UagaHaER-scioB_sAaAkG72RgTCppZmVwIs3zEHqlCWcZc70&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=Zl8ohUTcYeLyN40ERyuygQ&oh=00_AfH1TGIduc100cQXJYaZ-7uICcIRIguBkFOE6IzCoDKGvA&oe=680FC455" alt="United Sri Lanka" class="h-20 w-20 object-contain">
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">United Sri Lanka</h3>
+                            <p class="text-gray-700">එක්සත් ශ්‍රී ලංකාව</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -300,6 +326,36 @@
                     </div>
                     <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
                         <div id="sri-lanka-podujana-peramuna-bar" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-600 bar-animation" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- Party 5 Result -->
+                <div class="relative pt-1">
+                    <div class="flex items-center justify-between mb-2">
+                        <div>
+                            <span class="text-sm font-semibold inline-block">Ilankai Tamil Arasu Kachchi</span>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-sm font-semibold inline-block" id="ilankai-tamil-arusukkam-count">0</span>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
+                        <div id="ilankai-tamil-arusukkam-bar" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-600 bar-animation" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- Party 6 Result -->
+                <div class="relative pt-1">
+                    <div class="flex items-center justify-between mb-2">
+                        <div>
+                            <span class="text-sm font-semibold inline-block">United Sri Lanka</span>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-sm font-semibold inline-block" id="united-sri-lanka-count">0</span>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-orange-200">
+                        <div id="united-sri-lanka-bar" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-orange-600 bar-animation" style="width: 0%"></div>
                     </div>
                 </div>
             </div>
@@ -386,6 +442,16 @@
                 name: 'Sri Lanka Podujana Peramuna',
                 sinhaleName: 'ශ්‍රීලංකා පොදුජන පෙරමුණ',
                 color: 'purple'
+            },
+            'ilankai-tamil-arusukkam': {
+                name: 'Ilankai Tamil Arasu Kachchi',
+                sinhaleName: 'இலங்கை தமிழரசுக் கட்சி',
+                color: 'yellow'
+            },
+            'united-sri-lanka': {
+                name: 'United Sri Lanka',
+                sinhaleName: 'එක්සත් ශ්‍රී ලංකාව',
+                color: 'orange'
             }
         };
 
